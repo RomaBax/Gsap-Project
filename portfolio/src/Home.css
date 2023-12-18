@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500;600&family=Roboto+Mono&family=Silkscreen&display=swap");
+/* https://fonts.google.com/specimen/Silkscreen?preview.text=Home%20 */
+
+
+
+body {
+  background-color: #141027;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.nav_text {
+  display: flex;
+  font-size: 24px;
+  font-family: "Arimo", sans-serif;
+  color: #52d3d8;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.img_nav {
+  width: 80px;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.Home_text {
+  font-family: "Arimo", sans-serif;
+  color: #52d3d8;
+  font-size: 26px;
+  width: 500px;
+}
+.Home_img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 3px solid #52d3d8;
+  overflow: hidden;
+}
+.Home_icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+.Name{
+  color: #52b7d8;
+  font-family: "Arimo", sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+.Home_btn{
+  color: white;
+  background-color: #52b7d8;
+  border: none;
+  border-radius: 8px;
+  width: 10%;
+  height: 40px;
+  margin-left: 6%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Home_btn:hover{
+  opacity: 0.8;
+  
+}
+
