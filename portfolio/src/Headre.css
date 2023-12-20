@@ -1,0 +1,29 @@
+.header{
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+}
+.header .logo{
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+  cursor:default;
+}
+.header .menu{
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+.header .menu .menu_item{
+  font-size: 18px;
+  color: #fff;
+  font-weight: lighter;
+  transition: all 0.3s ease;
+}
+.header .menu .menu_item:hover{
+  color: rgb(226, 30, 69);
+  
+}
